@@ -158,3 +158,7 @@ Università di Roma Tor Vergata
 
 - Italiano: Madrelingua  
 - Inglese: Buono  
+
+
+> Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base all’art. 13 del D. Lgs. 196/2003 e all’art. 13 GDPR
+679/16.

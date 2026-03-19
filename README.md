@@ -1,24 +1,36 @@
-# Nome Cognome
-**Senior Backend Developer**
+# Umberto Ferracci
+**Senior Backend Developer | Cloud & Microservices Engineer**
 
 📍 Roma, Italia  
 📧 umberto.ferracci@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/umberto-ferracci-683639112/
+🔗 LinkedIn: linkedin.com/in/umberto-ferracci-683639112
 
 ---
 
 ## 🧠 Summary
-Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistemi web e embedded. Specializzato in architetture a microservizi utilizzando PHP (Symfony) e Java (Spring Boot), con forte esperienza in Docker, Kubernetes e CI/CD. Background multidisciplinare (firmware, software e web) e propensione alla qualità del codice, progettazione e mentoring tecnico.
+Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistemi web ed embedded. Specializzato in architetture a microservizi con PHP (Symfony) e Java (Spring Boot, Quarkus), con forte focus su ambienti cloud AWS, CI/CD e containerizzazione (Docker, Kubernetes). Esperienza nella supervisione di progetti complessi, definizione di linee guida tecniche e mentoring. Interesse e crescita continua in ambito cloud, data engineering e machine learning.
 
 ---
 
 ## 🛠️ Skills
 
-**Backend:** PHP (Symfony), Java (Spring Boot)  
-**DevOps:** Docker, Kubernetes, GitLab CI/CD, Terraform  
-**Database:** PostgreSQL, MySQL, Redis, Elasticsearch  
-**Messaging:** Kafka, RabbitMQ, MQTT  
-**Other:** Microservices, REST API, Design Patterns, Agile (Scrum), Git  
+**Backend:** PHP (Symfony), Java (Spring Boot, Spring Batch, Quarkus)  
+**Cloud & DevOps:** AWS (Lambda, CI/CD), Docker, Kubernetes, Terraform  
+**Database & Search:** PostgreSQL, MySQL, Redis, Elasticsearch (ELK Stack)  
+**Messaging & Workflow:** Kafka, RabbitMQ, MQTT, Camunda, n8n  
+**Quality & Tools:** SonarQube, Git, Agile (Scrum)  
+**Other:** Microservices, REST API, Design Patterns, Refactoring
+
+---
+
+## ☁️ Certificazioni
+
+- ✅ AWS Certified Developer – Associate (AWS-DA-03)
+- 📌 In corso / pianificate:  
+  - AWS Data Engineering (AWS-DE-01)
+  - AWS Machine Learning (AWS-ML-01)
+  - AWS Solutions Architect (AWS-SA-03)
+  - Camunda (Workflow Automation)
 
 ---
 
@@ -28,19 +40,22 @@ Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistem
 *Gen 2021 – Presente*
 
 - Sviluppo di applicazioni web in PHP (Symfony) e Java (Spring Boot)  
-- Progettazione di architetture a microservizi  
-- Definizione di linee guida backend e code review  
+- Progettazione e supervisione di architetture a microservizi  
+- Coordinamento tecnico e revisione codice (code review)  
+- Definizione di linee guida backend e best practice  
 - Mentoring e formazione del team backend  
-- Implementazione pipeline CI/CD con GitLab, Docker e Kubernetes  
-- Refactoring del codice e introduzione di test automatici  
+- Implementazione pipeline CI/CD (GitLab, Docker, Kubernetes)  
+- Utilizzo di SonarQube per analisi qualità del codice  
+- Integrazione sistemi di logging e monitoring (ELK Stack)  
+- Sviluppo e gestione di AWS Lambda per servizi serverless  
 
 ---
 
 ### **Backend Developer – Mashfrog**
 *Apr 2020 – Dic 2020*
 
-- Sviluppo di applicazioni web in PHP (Symfony - OroCRM)  
-- Manutenzione e sviluppo di funzionalità backend  
+- Sviluppo backend PHP (Symfony – OroCRM, UVDesk)  
+- Implementazione API REST e integrazione sistemi  
 
 ---
 
@@ -48,12 +63,13 @@ Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistem
 *2017 – Apr 2020*
 
 - Sviluppo firmware in C per microcontrollori (MSP430/MSP432, Zynq)  
-- Implementazione comunicazioni (UART, SPI, I2C, TCP/IP, HTTP)  
-- Sviluppo software di laboratorio in C# (WPF)  
+- Implementazione protocolli di comunicazione (SPI, I2C, TCP/IP, HTTP)  
+- Sviluppo software di laboratorio (C#, WPF)  
 - Progettazione sistemi embedded con LoRaWAN, GPRS, Bluetooth  
-- Sviluppo software real-time in ambiente Linux (Qt/C++)  
+- Sviluppo software real-time Linux (Qt/C++)  
 - Progettazione e sviluppo gestionale aziendale  
-- Pianificazione progetti (Gantt) e documentazione UML  
+- Pianificazione e gestione progetti (Gantt)  
+- Documentazione tecnica UML2
 
 ---
 
@@ -61,7 +77,7 @@ Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistem
 *2015 – 2017*
 
 - Sviluppo siti web con WordPress e Joomla  
-- Personalizzazione template e ottimizzazione SEO  
+- SEO e personalizzazione template  
 
 ---
 
@@ -69,8 +85,8 @@ Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistem
 *2015 – 2016*
 
 - Sviluppo sito web (Joomla)  
-- Sviluppo applicazioni Android e iOS  
-- Pianificazione e gestione attività di progetto  
+- Sviluppo app Android e iOS  
+- Pianificazione attività di progetto  
 
 ---
 
@@ -84,23 +100,53 @@ Senior Backend Developer con oltre 8 anni di esperienza nello sviluppo di sistem
 
 ## 🚀 Progetti Rilevanti
 
-**Architettura a Microservizi (Backend)**
-- Progettazione e sviluppo con Symfony e Spring Boot  
-- Containerizzazione con Docker e orchestrazione Kubernetes  
+**Sistema di Tracciamento Indoor (IoT & Real-time)**
+- Progettazione e sviluppo di un sistema basato su beacon BLE ed ESP32 per il rilevamento di persone e dispositivi in ambienti chiusi  
+- Sviluppo firmware per ESP32 per scansione e trasmissione dati  
+- Backend in Java (Spring Boot) per elaborazione eventi in tempo reale  
+- Integrazione tramite protocollo MQTT per gestione flussi dati  
+- Sistema di notifiche push per eventi e trigger in tempo reale  
+- Architettura scalabile basata su code e microservizi  
 
-**Sistema Embedded IoT**
+---
+
+**Sistema di Mobilità Intelligente (Event-Driven)**
+- Progettazione e sviluppo di un sistema per la gestione delle coincidenze tra mezzi di trasporto  
+- Architettura event-driven basata su Apache Kafka per l’elaborazione in tempo reale dei flussi di mobilità  
+- Analisi e correlazione eventi per identificare ritardi e ottimizzare le coincidenze  
+- Sistema di notifiche push per aggiornamenti in tempo reale agli utenti  
+- Backend scalabile orientato a microservizi  
+
+---
+
+**Architetture a Microservizi**
+- Progettazione e supervisione di sistemi distribuiti  
+- Implementazione con Symfony, Spring Boot e Quarkus  
+- Containerizzazione e orchestrazione (Docker, Kubernetes)  
+
+---
+
+**Sistema Serverless AWS**
+- Sviluppo e gestione AWS Lambda  
+- Integrazione con servizi cloud e backend  
+
+---
+
+**Workflow Automation**
+- Implementazione flussi con Camunda e n8n  
+- Automazione processi aziendali  
+
+---
+
+**Sistema IoT Embedded**
 - Firmware in C per dispositivi connessi (LoRaWAN, MQTT)  
-- Comunicazione con backend per raccolta dati  
-
-**Gestionale Aziendale**
-- Sviluppo backend e database per gestione produzione e magazzino  
-- Ambiente Linux (CentOS), database SQL  
+- Integrazione con backend per raccolta dati
 
 ---
 
 ## 🎓 Formazione
 
-**Ingegneria Informatica (in corso)**  
+**Ingegneria Informatica**  
 Università di Roma Tor Vergata  
 
 **Diploma Geometra**  
